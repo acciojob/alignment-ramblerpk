@@ -1,1 +1,14 @@
 /*  your css code here. If applicable */
+		.middle {
+            border: 1px solid black;
+            padding: 1px;
+        }
+        .green {
+            background-color: green;
+        }
+        .blue {
+            background-color: blue;
+        }
+        h2 {
+            text-align: center;
+        }
