@@ -1,66 +1,77 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment 3</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-	 <h3><b>HTML Assignment #3</b></h3>
+    <h3 style="text-align: center;"><b>HTML Assignment #3</b></h3>
 
-    <!-- First Table -->
-    <table>
+    <!-- Table 1 -->
+    <table id="table-1" class="middle">
         <tr>
-            <td align="left">left</td>
-            <td align="center">center</td>
-            <td align="right">right</td>
+            <td id="t11">Row 1, Col 1</td>
+            <td id="t12" class="center">Row 1, Col 2</td>
+            <td id="t13" class="right">Row 1, Col 3</td>
         </tr>
         <tr>
-            <td align="left">left</td>
-            <td align="center">center</td>
-            <td align="right">right</td>
+            <td>Row 2, Col 1</td>
+            <td>Row 2, Col 2</td>
+            <td>Row 2, Col 3</td>
         </tr>
         <tr>
-            <td align="left">left</td>
-            <td align="center">center</td>
-            <td align="right">right</td>
+            <td>Row 3, Col 1</td>
+            <td>Row 3, Col 2</td>
+            <td>Row 3, Col 3</td>
         </tr>
     </table>
 
-    <!-- Second Complex Table -->
-    <table>
+    <!-- Table 2 -->
+    <table id="table-2" class="middle">
         <tr>
-            <td colspan="5">&nbsp;</td>
+            <td id="t21" colspan="6">This is the first row spanning 6 columns</td>
         </tr>
         <tr>
-            <td rowspan="2">&nbsp;</td>
-            <td colspan="2">&nbsp;</td>
-            <td colspan="2">&nbsp;</td>
+            <td>Row 2, Col 1</td>
+            <td>Row 2, Col 2</td>
+            <td>Row 2, Col 3</td>
+            <td>Row 2, Col 4</td>
+            <td>Row 2, Col 5</td>
+        </tr>
+        <!-- Add more rows as necessary -->
+    </table>
+
+    <!-- Table 3 -->
+    <table id="table-3" class="middle">
+        <tr style="background-color: green;">
+            <td colspan="3">First row with green background</td>
         </tr>
         <tr>
-            <td colspan="2">&nbsp;</td>
-            <td colspan="2">&nbsp;</td>
+            <td id="t-image"><img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="Example Image"></td>
+            <td>Row 2, Col 2</td>
+            <td>Row 2, Col 3</td>
         </tr>
-        <tr>
-            <td colspan="2">&nbsp;</td>
-            <td colspan="3">&nbsp;</td>
+        <tr style="background-color: blue;">
+            <td colspan="3">Last row with blue background</td>
         </tr>
     </table>
 
-    <!-- Image Section -->
-    <div class="section-3">
-        <div class="inner-section">
-            <div></div>
-            <div>
-                <img src="https://i.imgur.com/0KFBHTB.jpeg" alt="Jordan Dunk">
-            </div>
-            <div></div>
-        </div>
-    </div>
-    <div class="bottom-bar"></div>
-
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        table {
+            width: 90%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
 </body>
-
-</html>
+</html
