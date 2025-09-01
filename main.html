@@ -1,77 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Assignment 3</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Assignment #3</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h3 style="text-align: center;"><b>HTML Assignment #3</b></h3>
 
-    <!-- Table 1 -->
-    <table id="table-1" class="middle">
-        <tr>
-            <td id="t11">Row 1, Col 1</td>
-            <td id="t12" class="center">Row 1, Col 2</td>
-            <td id="t13" class="right">Row 1, Col 3</td>
-        </tr>
-        <tr>
-            <td>Row 2, Col 1</td>
-            <td>Row 2, Col 2</td>
-            <td>Row 2, Col 3</td>
-        </tr>
-        <tr>
-            <td>Row 3, Col 1</td>
-            <td>Row 3, Col 2</td>
-            <td>Row 3, Col 3</td>
-        </tr>
-    </table>
+  <!-- First Table -->
+  <table>
+    <tr>
+      <th colspan="3">HTML Assignment #3</th>
+    </tr>
+    <tr class="top">
+      <td>left</td>
+      <td>center</td>
+      <td>right</td>
+    </tr>
+    <tr class="top">
+      <td>left</td>
+      <td>center</td>
+      <td>right</td>
+    </tr>
+    <tr class="top">
+      <td>left</td>
+      <td>center</td>
+      <td>right</td>
+    </tr>
+  </table>
 
-    <!-- Table 2 -->
-    <table id="table-2" class="middle">
-        <tr>
-            <td id="t21" colspan="6">This is the first row spanning 6 columns</td>
-        </tr>
-        <tr>
-            <td>Row 2, Col 1</td>
-            <td>Row 2, Col 2</td>
-            <td>Row 2, Col 3</td>
-            <td>Row 2, Col 4</td>
-            <td>Row 2, Col 5</td>
-        </tr>
-        <!-- Add more rows as necessary -->
-    </table>
+  <!-- Second Table -->
+  <table>
+    <tr>
+      <td colspan="4" style="height:30px;"></td>
+    </tr>
+    <tr>
+      <td style="width:25%;"></td>
+      <td colspan="2" style="width:50%;"></td>
+      <td style="width:25%;"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
 
-    <!-- Table 3 -->
-    <table id="table-3" class="middle">
-        <tr style="background-color: green;">
-            <td colspan="3">First row with green background</td>
-        </tr>
-        <tr>
-            <td id="t-image"><img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="Example Image"></td>
-            <td>Row 2, Col 2</td>
-            <td>Row 2, Col 3</td>
-        </tr>
-        <tr style="background-color: blue;">
-            <td colspan="3">Last row with blue background</td>
-        </tr>
-    </table>
+  <!-- Third Section -->
+  <div class="container">
+    <div class="header"></div>
+    <div class="content">
+      <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="Basketball">
+    </div>
+    <div class="footer"></div>
+  </div>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-        table {
-            width: 90%;
-            border-collapse: collapse;
-            margin: 20px auto;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 10px;
-        }
-    </style>
 </body>
-</html
+</html>

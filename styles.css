@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 10px auto;
+}
+
+th {
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+}
+
+td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+}
+
+.top td {
+  text-align: center;
+}
+
+.top td:first-child {
+  text-align: left;
+}
+
+.top td:last-child {
+  text-align: right;
+}
+
+/* Section with green header, image, and blue footer */
+.container {
+  border: 1px solid black;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.header {
+  background: green;
+  height: 30px;
+}
+
+.footer {
+  background: blue;
+  height: 30px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 250px;
+}
+
+.content img {
+  width: 350px;
+  height: auto;
+  border: 1px solid black;
+}
